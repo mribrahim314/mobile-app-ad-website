@@ -1,0 +1,61 @@
+.features-section {
+    padding: 9rem 0;
+  }
+  
+  .features-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .feature-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+  
+  .feature-container.rtl {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: #ff4545;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    flex-shrink: 0;
+  }
+  
+  .icon-container i {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+  
+  .text-container {
+    flex-grow: 1;
+  }
+  
+  .text-container h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .phone-section {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: -2rem;
+  }
+  
+  .phone-section img {
+    max-width: 120%; 
+    height: auto;
+    margin-top: -7rem;
+  }
+  
+
+  

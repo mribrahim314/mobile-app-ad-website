@@ -1,0 +1,99 @@
+
+.app-screenshots {
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.app-screenshots h2 {
+  margin-bottom: 3rem;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px; 
+  height: 50px;
+  background: white; 
+  border: 2px solid #ff4545;
+  border-radius: 50%; 
+  color: #ff4545; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem; 
+  opacity: 0.8;
+  z-index: 1;
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1; 
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; 
+}
+
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: ''; 
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.carousel-control-prev-icon::before {
+  border-width: 10px 14px 10px 14px; 
+  border-color: transparent #ff4545 transparent transparent; 
+}
+
+.carousel-control-next-icon::before {
+  border-width: 10px 14px 10px 14px; 
+  border-color: transparent transparent transparent #ff4545; 
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%; 
+
+}
+.carousel-control-prev{
+  margin-left: 8rem;
+}
+.carousel-control-next {margin-right:8rem ;}
+
+
+.carousel-inner {
+  text-align: center; 
+}
+
+.carousel-indicators-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 6rem; 
+}
+
+.carousel-indicator {
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%;
+  background-color: transparent; 
+  border: 1.5px solid #ff4545; 
+  margin: 0 5px; 
+  background-size: cover; 
+  background-position: center; 
+  cursor: pointer;
+}
+
+.carousel-indicator.active {
+  background-color: #ff4545;
+}

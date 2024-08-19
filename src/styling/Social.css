@@ -1,0 +1,21 @@
+.social-icons svg {
+    font-size: 19px;
+    display: flex;
+    cursor: pointer;
+  }
+  .icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    background-color: #454545;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon-circle:hover {
+    background-color: #dc3545; /* Darken on hover */
+  }
+  
