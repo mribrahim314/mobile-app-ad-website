@@ -5,8 +5,8 @@ import '../styling/AppScreenshots.css';
 const AppScreenshots: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const screenshots = [
-    'src/assets/slider/mobile1.png',
-    'src/assets/slider/mobile2.png'
+    '../assets/slider/mobile1.png',
+    '../assets/slider/mobile2.png'
   ];
 
   const handleSelect = (selectedIndex: number) => {
